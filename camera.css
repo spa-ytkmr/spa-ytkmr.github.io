@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#box1{
+    font-family: 'meiryo';
+    background-color:gray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box2{
+    background-color: black;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
