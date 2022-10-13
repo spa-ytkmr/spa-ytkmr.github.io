@@ -11,28 +11,50 @@
 </head>
 
 <body>
+  <header>
+    <h1 class="title">DIG10</h1>
+    <nav class="nav"><a href=""><font size="4">home</font></a></nav>
+    <nav class="nav"><a href=""><font size="4">github</font></a></nav>
+  </header>
+  
   <div id="box1">
-    <h1>長谷川豊です
-      <p>私の課題内容は、<font color="orange"> webカメラ活用</font>です</p>
-      <p>先日…</p>
-<!--       <img src="https://cdn.dribbble.com/users/1281272/screenshots/4515441/unicorn.gif"> -->
-      <img src="https://github.com/spa-ytkmr/spa-ytkmr.github.io/blob/main/DIG10_2.gif?raw=true">
-    </h1>
-    <video id="video" width="1280" height="960"></video>
+    <ul>
+      <li><img src="https://github.com/spa-ytkmr/spa-ytkmr.github.io/blob/main/DIG10_1.gif?raw=true"></li>
+      <li><img class="blur" src="https://github.com/spa-ytkmr/spa-ytkmr.github.io/blob/main/DIG10_2.gif?raw=true"></li> 
+    </ul>
+    <h2>
+      <p>このような　<font size="10" color="orange">骨格検知</font>をブラウザで起動する</p>
+      <p>こどもが雨の日に遊べたらうれしい</p>
+      <p>今回の学びを活かし<font size="10" color="orange">公開HPで</font>やってみたい</p>
+    </h2>
+
+  </div> 
+  <div id="box2">
+    <ul>
+      <button id="btn1">ON<p>handtrack</p></button>
+      <button id="btn2">ON<p>onlyLive</p></button><p></p>
+      <button id="btn3">ON<p>tensorflow</p></button><p></p>
+    </ul>
+    <input id="input" type="text" value="3">
     <p></p>
-    <canvas id="log" width="1280" height="960"></canvas>
+    <button id="btnRec">shutter</button>
     <p></p>
-    <button id="btn1">ON</button>
   </div>
 
-
-
-  <div id="box2">CHALLENGE
-    <input id="input" type="text" value="0">
-    <p></p>
-    <button id="btn2">REC</button>
-    <p></p>
-    <div id="cal"></div>
+  <div>
+    <ul>
+      <li>
+        <video id="video" width="800" height="600"></video>
+        <video id="video2" width="800" height="600"></video>
+        <canvas id="canvas" width="800" height="600"></canvas>
+      </li>
+      <li id="memo">
+        <!-- <img id="videomemo" width="800" height="600">
+        <canvas id="canvas2" width="800" height="600"></canvas> -->
+      </li>
+    
+    </ul>
+    <!-- <div id="cal"></div> -->
   </div>
 
 
